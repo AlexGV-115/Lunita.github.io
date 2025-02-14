@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para la mejor persona</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="img/Luna.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Querida Luna.</strong>
+                        <p>
+                            Gracias por formar parte de mi vida, desde los primeros dias que te conoci
+                            hasta ahora para mi eres una persona muy especial una amistad como ninguna otra
+                            siempre estas cuando lo necesito y quiero plasmar en este texto lo mucho que te
+                            aprecio kim sabes que eres una increible persona, una gran amiga, y sobre todo
+                            una gran compañia de vida que me has dado a lo largo de nuestra amistad. Quiero quiero
+                            sepas que tienes un gran amigo para cuando lo necesites y simplemente te deseo lo mejor
+                            en tu vida.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <button id="new-page-button">
+        <a href="florIntro.html" style="text-decoration: none; color: inherit;">Nueva sorpresa</a>
+      </button>
+      
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
